@@ -10,7 +10,7 @@ public class RunnableThread implements Runnable{
     @Override
     public void run() {
         //线程执行的代码
-        System.out.println(2);
+        System.out.println("实现Runnable接口创建线程");
 
     }
 }

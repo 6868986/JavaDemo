@@ -28,6 +28,7 @@ class MyRunnable implements Runnable{
     @Override
     public void run() {
         while(true){
+            //锁住当前myRunnable对象
             synchronized (this){
                 //唤醒另一个线程，让另一个线程开始等待锁资源
                 notify();

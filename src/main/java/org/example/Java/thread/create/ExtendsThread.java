@@ -8,7 +8,7 @@ public class ExtendsThread extends Thread{
     @Override
     public void run(){
         //线程执行的内容
-        System.out.println(1);
+        System.out.println("继承Thread类创建线程");
     }
 
 }
