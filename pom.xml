@@ -15,10 +15,17 @@
     </properties>
 
     <dependencies>
+<!--        spring-boot-starter-web-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>3.1.0</version>
+        </dependency>
+<!--        mafka-->
+        <dependency>
+            <groupId>com.meituan.mafka</groupId>
+            <artifactId>mafka-client_2.10</artifactId>
+            <version>3.6.9.2</version>
         </dependency>
     </dependencies>
 
