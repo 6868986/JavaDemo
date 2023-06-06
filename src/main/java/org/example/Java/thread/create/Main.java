@@ -1,12 +1,15 @@
 package org.example.Java.thread.create;
 
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask;
+
 /**
  * @author liushixing
  * @date 2023/6/5 19:50
  */
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
 
         MyRunnable myRunnable = new MyRunnable();
         new Thread(myRunnable).start();
@@ -18,6 +21,14 @@ public class Main {
         RunnableThread runnable = new RunnableThread();
         Thread thread2 = new Thread(runnable);
         thread2.start();
+
+        CallableThread callable = new CallableThread();
+        FutureTask futureTask = new FutureTask<>(callable);
+        Thread thread3 = new Thread(futureTask);
+        thread3.start();
+        String res = (String) futureTask.get();
+        System.out.println("res：" + res);
+
     }
 }
 
