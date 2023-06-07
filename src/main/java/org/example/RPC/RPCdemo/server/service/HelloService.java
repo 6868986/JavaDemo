@@ -1,4 +1,4 @@
-package org.example.RPC.server.service;
+package org.example.RPC.RPCdemo.server.service;
 
 /**
  * @author liushixing

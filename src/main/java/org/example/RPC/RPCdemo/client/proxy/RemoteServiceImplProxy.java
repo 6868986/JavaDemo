@@ -1,12 +1,11 @@
-package org.example.RPC.client.proxy;
+package org.example.RPC.RPCdemo.client.proxy;
 
-import org.example.RPC.server.request.Request;
-import org.example.RPC.server.response.Response;
-import org.example.RPC.server.service.HelloService;
+import org.example.RPC.RPCdemo.server.request.Request;
+import org.example.RPC.RPCdemo.server.response.Response;
+import org.example.RPC.RPCdemo.server.service.HelloService;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
 
-import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;

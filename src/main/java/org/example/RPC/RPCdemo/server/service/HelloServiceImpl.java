@@ -1,6 +1,5 @@
-package org.example.RPC.server.service;
+package org.example.RPC.RPCdemo.server.service;
 
-import org.example.RPC.server.service.HelloService;
 import org.springframework.stereotype.Service;
 
 /**

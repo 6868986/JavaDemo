@@ -1,7 +1,7 @@
-package org.example.RPC.client.consumer;
+package org.example.RPC.RPCdemo.client.consumer;
 
-import org.example.RPC.client.proxy.RemoteServiceImplProxy;
-import org.example.RPC.server.service.HelloService;
+import org.example.RPC.RPCdemo.client.proxy.RemoteServiceImplProxy;
+import org.example.RPC.RPCdemo.server.service.HelloService;
 
 /**
  * @author liushixing

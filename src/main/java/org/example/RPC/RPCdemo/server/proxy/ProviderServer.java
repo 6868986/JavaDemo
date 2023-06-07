@@ -1,13 +1,12 @@
-package org.example.RPC.server.proxy;
+package org.example.RPC.RPCdemo.server.proxy;
 
 
 
-import org.example.RPC.server.request.Request;
-import org.example.RPC.server.response.Response;
-import org.example.RPC.server.service.HelloService;
-import org.example.RPC.server.service.HelloServiceImpl;
+import org.example.RPC.RPCdemo.server.request.Request;
+import org.example.RPC.RPCdemo.server.response.Response;
+import org.example.RPC.RPCdemo.server.service.HelloService;
+import org.example.RPC.RPCdemo.server.service.HelloServiceImpl;
 
-import javax.annotation.Resource;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;

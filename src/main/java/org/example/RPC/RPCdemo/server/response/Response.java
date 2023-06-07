@@ -1,4 +1,4 @@
-package org.example.RPC.server.response;
+package org.example.RPC.RPCdemo.server.response;
 
 import java.io.Serializable;
 
