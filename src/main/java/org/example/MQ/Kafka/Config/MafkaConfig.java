@@ -1,10 +1,10 @@
-package org.example.Kafka.Config;
+package org.example.MQ.Kafka.Config;
 
 import com.meituan.mafka.client.MafkaClient;
 import com.meituan.mafka.client.bean.MafkaProducer;
 import com.meituan.mafka.client.consumer.ConsumerConstants;
 import com.meituan.mafka.client.consumer.IConsumerProcessor;
-import org.example.Kafka.Listener.WorkListener;
+import org.example.MQ.Kafka.Listener.WorkListener;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

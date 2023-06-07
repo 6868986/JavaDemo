@@ -2,7 +2,7 @@
  * meituan.com Inc.
  * Copyright (c) 2010-2023 All Rights Reserved.
  */
-package org.example.Kafka;
+package org.example.MQ.Kafka;
 
 import com.meituan.mafka.client.MafkaClient;
 import com.meituan.mafka.client.consumer.ConsumerConstants;

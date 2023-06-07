@@ -27,6 +27,12 @@
             <artifactId>mafka-client_2.10</artifactId>
             <version>3.6.9.2</version>
         </dependency>
+<!--        lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.26</version>
+        </dependency>
     </dependencies>
 
 </project>

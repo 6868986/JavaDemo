@@ -13,7 +13,7 @@ public class ConsumerClient {
 
         //HelloService是远程服务暴露出来的sdk接口，通过导入jar包引入远程服务的sdk接口
         HelloService service = new RemoteServiceImplProxy();
-        String res = service.hello("WHU");
+        String res = service.hello("武汉大学");
         System.out.println(res);
     }
 }

@@ -1,4 +1,4 @@
-package org.example.Kafka.Listener;
+package org.example.MQ.Kafka.Listener;
 
 import com.meituan.mafka.client.consumer.ConsumeStatus;
 import com.meituan.mafka.client.consumer.IMessageListener;
